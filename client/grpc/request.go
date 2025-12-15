@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"go-micro.dev/v5/client"
-	"go-micro.dev/v5/codec"
+	"go-micro.kanter.cn/v1/client"
+	"go-micro.kanter.cn/v1/codec"
 )
 
 type grpcRequest struct {

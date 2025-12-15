@@ -3,7 +3,7 @@ package mock
 import (
 	"testing"
 
-	"go-micro.dev/v5/server"
+	"go-micro.kanter.cn/v1/server"
 )
 
 func TestMockServer(t *testing.T) {

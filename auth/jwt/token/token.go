@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"go-micro.dev/v5/auth"
+	"go-micro.kanter.cn/v1/auth"
 )
 
 var (

@@ -2,11 +2,11 @@ package main
 
 import (
 	"embed"
-	"go-micro.dev/v5/cmd"
+	"go-micro.kanter.cn/v1/cmd"
 
-	_ "go-micro.dev/v5/cmd/micro/cli"
-	_ "go-micro.dev/v5/cmd/micro/run"
-	"go-micro.dev/v5/cmd/micro/server"
+	_ "go-micro.kanter.cn/v1/cmd/micro/cli"
+	_ "go-micro.kanter.cn/v1/cmd/micro/run"
+	"go-micro.kanter.cn/v1/cmd/micro/server"
 )
 
 //go:embed web/styles.css web/main.js web/templates/*

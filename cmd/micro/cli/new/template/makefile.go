@@ -6,7 +6,7 @@ GOPATH:=$(shell go env GOPATH)
 .PHONY: init
 init:
 	go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
-	go install go-micro.dev/v5/cmd/protoc-gen-micro@latest
+	go install go-micro.kanter.cn/v1/cmd/protoc-gen-micro@latest
 	go install github.com/google/gnostic/cmd/protoc-gen-openapi@latest
 
 .PHONY: api

@@ -23,7 +23,7 @@ Provide any additional context that might help answer your question.
 ## Resources you've checked
 - [ ] [Getting Started Guide](https://github.com/micro/go-micro/tree/master/internal/website/docs/getting-started.md)
 - [ ] [Examples](https://github.com/micro/go-micro/tree/master/internal/website/docs/examples)
-- [ ] [API Documentation](https://pkg.go.dev/go-micro.dev/v5)
+- [ ] [API Documentation](https://pkg.go.dev/go-micro.kanter.cn/v1)
 - [ ] Searched existing issues
 
 ## Helpful links

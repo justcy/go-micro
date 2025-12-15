@@ -12,8 +12,8 @@ import (
 	nats "github.com/nats-io/nats.go"
 	"github.com/pkg/errors"
 
-	"go-micro.dev/v5/events"
-	"go-micro.dev/v5/logger"
+	"go-micro.kanter.cn/v1/events"
+	"go-micro.kanter.cn/v1/logger"
 )
 
 const (

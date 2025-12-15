@@ -13,14 +13,14 @@ import (
 	"syscall"
 
 	"github.com/urfave/cli/v2"
-	"go-micro.dev/v5/client"
-	"go-micro.dev/v5/cmd"
-	"go-micro.dev/v5/codec/bytes"
-	"go-micro.dev/v5/genai"
-	"go-micro.dev/v5/registry"
+	"go-micro.kanter.cn/v1/client"
+	"go-micro.kanter.cn/v1/cmd"
+	"go-micro.kanter.cn/v1/codec/bytes"
+	"go-micro.kanter.cn/v1/genai"
+	"go-micro.kanter.cn/v1/registry"
 
-	"go-micro.dev/v5/cmd/micro/cli/new"
-	"go-micro.dev/v5/cmd/micro/cli/util"
+	"go-micro.kanter.cn/v1/cmd/micro/cli/new"
+	"go-micro.kanter.cn/v1/cmd/micro/cli/util"
 )
 
 var (

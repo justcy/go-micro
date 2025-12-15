@@ -1,4 +1,4 @@
-module go-micro.dev/v5
+module go-micro.kanter.cn/v1
 
 go 1.24
 

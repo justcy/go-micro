@@ -1,4 +1,4 @@
-# Go Micro [![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/go-micro.dev/v5?tab=doc) [![Go Report Card](https://goreportcard.com/badge/github.com/go-micro/go-micro)](https://goreportcard.com/report/github.com/go-micro/go-micro) 
+# Go Micro [![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/go-micro.kanter.cn/v1?tab=doc) [![Go Report Card](https://goreportcard.com/badge/github.com/go-micro/go-micro)](https://goreportcard.com/report/github.com/go-micro/go-micro) 
 
 Go Micro is a framework for distributed systems development.
 
@@ -50,7 +50,7 @@ in the plugins repo. State and persistence becomes a core requirement beyond pro
 To make use of Go Micro 
 
 ```bash
-go get go-micro.dev/v5@latest
+go get go-micro.kanter.cn/v1@latest
 ```
 
 Create a service and register a handler
@@ -59,7 +59,7 @@ Create a service and register a handler
 package main
 
 import (
-        "go-micro.dev/v5"
+        "go-micro.kanter.cn/v1"
 )
 
 type Request struct {
@@ -117,7 +117,7 @@ There's a new `genai` package for generative AI capabilities.
 Install the code generator and see usage in the docs:
 
 ```bash
-go install go-micro.dev/v5/cmd/protoc-gen-micro@latest
+go install go-micro.kanter.cn/v1/cmd/protoc-gen-micro@latest
 ```
 
 Docs: [`internal/website/docs/getting-started.md`](internal/website/docs/getting-started.md)
@@ -127,12 +127,12 @@ Docs: [`internal/website/docs/getting-started.md`](internal/website/docs/getting
 Install the CLI and see usage in the docs:
 
 ```
-go install go-micro.dev/v5/cmd/micro@latest
+go install go-micro.kanter.cn/v1/cmd/micro@latest
 ```
 
 Docs: [`internal/website/docs`](internal/website/docs)
 
-Package reference: https://pkg.go.dev/go-micro.dev/v5
+Package reference: https://pkg.go.dev/go-micro.kanter.cn/v1
 
 Selected topics:
 - Getting Started: [`internal/website/docs/getting-started.md`](internal/website/docs/getting-started.md)

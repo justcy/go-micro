@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	"go-micro.dev/v5/broker"
-	"go-micro.dev/v5/codec"
-	"go-micro.dev/v5/logger"
-	"go-micro.dev/v5/registry"
-	"go-micro.dev/v5/selector"
-	"go-micro.dev/v5/transport"
+	"go-micro.kanter.cn/v1/broker"
+	"go-micro.kanter.cn/v1/codec"
+	"go-micro.kanter.cn/v1/logger"
+	"go-micro.kanter.cn/v1/registry"
+	"go-micro.kanter.cn/v1/selector"
+	"go-micro.kanter.cn/v1/transport"
 )
 
 var (

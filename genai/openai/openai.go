@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"os"
 
-	"go-micro.dev/v5/genai"
+	"go-micro.kanter.cn/v1/genai"
 )
 
 type openAI struct {

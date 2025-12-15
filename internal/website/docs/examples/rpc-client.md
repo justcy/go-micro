@@ -12,7 +12,7 @@ package main
 import (
     "context"
     "fmt"
-    "go-micro.dev/v5"
+    "go-micro.kanter.cn/v1"
 )
 
 type Request struct { Name string }

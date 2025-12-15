@@ -10,13 +10,13 @@ This guide explains how to make your Go Micro services compatible with native gR
 
 Go Micro has two different gRPC-related concepts that are often confused:
 
-### gRPC Transport (`go-micro.dev/v5/transport/grpc`)
+### gRPC Transport (`go-micro.kanter.cn/v1/transport/grpc`)
 
 The gRPC **transport** uses the gRPC protocol as a communication layer, similar to how you might use NATS, RabbitMQ, or HTTP. It does **not** guarantee compatibility with native gRPC clients.
 
 ```go
 // This uses gRPC as transport but is NOT compatible with native gRPC clients
-import "go-micro.dev/v5/transport/grpc"
+import "go-micro.kanter.cn/v1/transport/grpc"
 
 t := grpc.NewTransport()
 service := micro.NewService(
@@ -30,16 +30,16 @@ When using the gRPC transport:
 - Native gRPC clients (grpcurl, etc.) will fail with "Unimplemented" errors
 - The protocol is used like a message bus, not as a standard gRPC server
 
-### gRPC Server/Client (`go-micro.dev/v5/server/grpc` and `go-micro.dev/v5/client/grpc`)
+### gRPC Server/Client (`go-micro.kanter.cn/v1/server/grpc` and `go-micro.kanter.cn/v1/client/grpc`)
 
 The gRPC **server** and **client** provide native gRPC compatibility. These implement a proper gRPC server that any gRPC client can communicate with.
 
 ```go
 // This IS compatible with native gRPC clients
 import (
-    "go-micro.dev/v5"
-    grpcServer "go-micro.dev/v5/server/grpc"
-    grpcClient "go-micro.dev/v5/client/grpc"
+    "go-micro.kanter.cn/v1"
+    grpcServer "go-micro.kanter.cn/v1/server/grpc"
+    grpcClient "go-micro.kanter.cn/v1/client/grpc"
 )
 
 service := micro.NewService(
@@ -88,7 +88,7 @@ message Response {
 
 ```bash
 # Install protoc-gen-micro
-go install go-micro.dev/v5/cmd/protoc-gen-micro@latest
+go install go-micro.kanter.cn/v1/cmd/protoc-gen-micro@latest
 
 # Generate Go code
 protoc --proto_path=. \
@@ -106,8 +106,8 @@ import (
     "context"
     "log"
 
-    "go-micro.dev/v5"
-    grpcServer "go-micro.dev/v5/server/grpc"
+    "go-micro.kanter.cn/v1"
+    grpcServer "go-micro.kanter.cn/v1/server/grpc"
     pb "example.com/helloworld/proto"
 )
 
@@ -149,8 +149,8 @@ import (
     "fmt"
     "log"
 
-    "go-micro.dev/v5"
-    grpcClient "go-micro.dev/v5/client/grpc"
+    "go-micro.kanter.cn/v1"
+    grpcClient "go-micro.kanter.cn/v1/client/grpc"
     pb "example.com/helloworld/proto"
 )
 
@@ -199,9 +199,9 @@ For full native gRPC compatibility (both inbound and outbound), use both:
 package main
 
 import (
-    "go-micro.dev/v5"
-    grpcClient "go-micro.dev/v5/client/grpc"
-    grpcServer "go-micro.dev/v5/server/grpc"
+    "go-micro.kanter.cn/v1"
+    grpcClient "go-micro.kanter.cn/v1/client/grpc"
+    grpcServer "go-micro.kanter.cn/v1/server/grpc"
 )
 
 func main() {
@@ -246,7 +246,7 @@ To:
 
 ```go
 // Correct - uses server
-import grpcServer "go-micro.dev/v5/server/grpc"
+import grpcServer "go-micro.kanter.cn/v1/server/grpc"
 
 service := micro.NewService(
     micro.Server(grpcServer.NewServer()),
@@ -259,13 +259,13 @@ Note the different import paths:
 
 ```go
 // Transport (NOT native gRPC compatible)
-import "go-micro.dev/v5/transport/grpc"
+import "go-micro.kanter.cn/v1/transport/grpc"
 
 // Server (native gRPC compatible)
-import "go-micro.dev/v5/server/grpc"
+import "go-micro.kanter.cn/v1/server/grpc"
 
 // Client (native gRPC compatible)
-import "go-micro.dev/v5/client/grpc"
+import "go-micro.kanter.cn/v1/client/grpc"
 ```
 
 ### Option Ordering Issue
@@ -322,9 +322,9 @@ MICRO_CLIENT=grpc go run main.go
 
 | Component | Import Path | Native gRPC Compatible |
 |-----------|-------------|----------------------|
-| Transport | `go-micro.dev/v5/transport/grpc` | ❌ No |
-| Server | `go-micro.dev/v5/server/grpc` | ✅ Yes |
-| Client | `go-micro.dev/v5/client/grpc` | ✅ Yes |
+| Transport | `go-micro.kanter.cn/v1/transport/grpc` | ❌ No |
+| Server | `go-micro.kanter.cn/v1/server/grpc` | ✅ Yes |
+| Client | `go-micro.kanter.cn/v1/client/grpc` | ✅ Yes |
 
 For native gRPC compatibility with tools like `grpcurl` or polyglot clients, always use the gRPC **server** and **client** packages, not the transport.
 

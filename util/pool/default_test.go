@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"go-micro.dev/v5/transport"
+	"go-micro.kanter.cn/v1/transport"
 )
 
 func testPool(t *testing.T, size int, ttl time.Duration) {

@@ -10,11 +10,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"go-micro.dev/v5"
-	"go-micro.dev/v5/client"
-	"go-micro.dev/v5/debug/handler"
+	"go-micro.kanter.cn/v1"
+	"go-micro.kanter.cn/v1/client"
+	"go-micro.kanter.cn/v1/debug/handler"
 
-	pb "go-micro.dev/v5/debug/proto"
+	pb "go-micro.kanter.cn/v1/debug/proto"
 )
 
 var (

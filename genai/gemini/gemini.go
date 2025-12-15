@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"os"
 
-	"go-micro.dev/v5/genai"
+	"go-micro.kanter.cn/v1/genai"
 )
 
 // gemini implements the GenAI interface using Google Gemini 2.5 API.

@@ -24,9 +24,9 @@ import (
 	"time"
 
 	"github.com/urfave/cli/v2"
-	"go-micro.dev/v5/cmd"
-	"go-micro.dev/v5/registry"
-	"go-micro.dev/v5/store"
+	"go-micro.kanter.cn/v1/cmd"
+	"go-micro.kanter.cn/v1/registry"
+	"go-micro.kanter.cn/v1/store"
 	"golang.org/x/crypto/bcrypt"
 )
 

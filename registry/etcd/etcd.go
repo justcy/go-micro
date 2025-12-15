@@ -15,8 +15,8 @@ import (
 	"time"
 
 	hash "github.com/mitchellh/hashstructure"
-	"go-micro.dev/v5/logger"
-	"go-micro.dev/v5/registry"
+	"go-micro.kanter.cn/v1/logger"
+	"go-micro.kanter.cn/v1/registry"
 	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"go.uber.org/zap"

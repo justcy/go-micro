@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"go-micro.dev/v5/errors"
-	"go-micro.dev/v5/registry"
-	"go-micro.dev/v5/selector"
+	"go-micro.kanter.cn/v1/errors"
+	"go-micro.kanter.cn/v1/registry"
+	"go-micro.kanter.cn/v1/selector"
 )
 
 const (

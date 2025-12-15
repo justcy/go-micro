@@ -12,8 +12,8 @@ Use Consul as the service registry.
 package main
 
 import (
-    "go-micro.dev/v5"
-    "go-micro.dev/v5/registry/consul"
+    "go-micro.kanter.cn/v1"
+    "go-micro.kanter.cn/v1/registry/consul"
 )
 
 func main() {

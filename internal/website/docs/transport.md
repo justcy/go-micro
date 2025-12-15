@@ -13,9 +13,9 @@ The transport layer is responsible for communication between services.
 ## Implementations
 Supported transports include:
 - HTTP (default)
-- NATS (`go-micro.dev/v5/transport/nats`)
-- gRPC (`go-micro.dev/v5/transport/grpc`)
-- Memory (`go-micro.dev/v5/transport/memory`)
+- NATS (`go-micro.kanter.cn/v1/transport/nats`)
+- gRPC (`go-micro.kanter.cn/v1/transport/grpc`)
+- Memory (`go-micro.kanter.cn/v1/transport/memory`)
 
 ## Important: Transport vs Native gRPC
 
@@ -25,8 +25,8 @@ If you need native gRPC compatibility (to use `grpcurl`, polyglot gRPC clients, 
 
 ```go
 import (
-    grpcServer "go-micro.dev/v5/server/grpc"
-    grpcClient "go-micro.dev/v5/client/grpc"
+    grpcServer "go-micro.kanter.cn/v1/server/grpc"
+    grpcClient "go-micro.kanter.cn/v1/client/grpc"
 )
 
 // Important: Server must be specified before Name
@@ -39,7 +39,7 @@ service := micro.NewService(
 
 See [Native gRPC Compatibility](guides/grpc-compatibility.md) for a complete guide.
 
-Plugins are scoped under `go-micro.dev/v5/transport/<plugin>`.
+Plugins are scoped under `go-micro.kanter.cn/v1/transport/<plugin>`.
 
 You can specify the transport when initializing your service or via env vars.
 
@@ -51,8 +51,8 @@ Here's how to use a custom transport (e.g., gRPC) in your Go Micro service:
 package main
 
 import (
-    "go-micro.dev/v5"
-    "go-micro.dev/v5/transport/grpc"
+    "go-micro.kanter.cn/v1"
+    "go-micro.kanter.cn/v1/transport/grpc"
 )
 
 func main() {
@@ -68,8 +68,8 @@ func main() {
 NATS transport:
 ```go
 import (
-    "go-micro.dev/v5"
-    tnats "go-micro.dev/v5/transport/nats"
+    "go-micro.kanter.cn/v1"
+    tnats "go-micro.kanter.cn/v1/transport/nats"
 )
 
 func main() {

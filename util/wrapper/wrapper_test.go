@@ -5,10 +5,10 @@ import (
 	"reflect"
 	"testing"
 
-	"go-micro.dev/v5/auth"
-	"go-micro.dev/v5/client"
-	"go-micro.dev/v5/metadata"
-	"go-micro.dev/v5/server"
+	"go-micro.kanter.cn/v1/auth"
+	"go-micro.kanter.cn/v1/client"
+	"go-micro.kanter.cn/v1/metadata"
+	"go-micro.kanter.cn/v1/server"
 )
 
 func TestWrapper(t *testing.T) {

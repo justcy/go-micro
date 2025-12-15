@@ -6,7 +6,7 @@ var (
 import (
 	"context"
 
-	log "go-micro.dev/v5/logger"
+	log "go-micro.kanter.cn/v1/logger"
 
 	pb "{{.Dir}}/proto"
 )
@@ -46,7 +46,7 @@ func (e *{{title .Alias}}) Stream(ctx context.Context, req *pb.StreamingRequest,
 
 import (
 	"context"
-	log "go-micro.dev/v5/logger"
+	log "go-micro.kanter.cn/v1/logger"
 
 	pb "{{.Dir}}/proto"
 )

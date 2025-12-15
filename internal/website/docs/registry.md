@@ -22,7 +22,7 @@ You can configure the registry when initializing your service.
 
 ## Plugins Location
 
-Registry plugins live in this repository under `go-micro.dev/v5/registry/<plugin>` (e.g., `consul`, `etcd`, `nats`). Import the desired package and pass it via `micro.Registry(...)`.
+Registry plugins live in this repository under `go-micro.kanter.cn/v1/registry/<plugin>` (e.g., `consul`, `etcd`, `nats`). Import the desired package and pass it via `micro.Registry(...)`.
 
 ## Configure via environment
 
@@ -45,8 +45,8 @@ Here's how to use a custom registry (e.g., Consul) in your Go Micro service:
 package main
 
 import (
-    "go-micro.dev/v5"
-    "go-micro.dev/v5/registry/consul"
+    "go-micro.kanter.cn/v1"
+    "go-micro.kanter.cn/v1/registry/consul"
 )
 
 func main() {

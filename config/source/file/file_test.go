@@ -8,8 +8,8 @@ import (
 	"testing/fstest"
 	"time"
 
-	"go-micro.dev/v5/config"
-	"go-micro.dev/v5/config/source/file"
+	"go-micro.kanter.cn/v1/config"
+	"go-micro.kanter.cn/v1/config/source/file"
 )
 
 func TestConfig(t *testing.T) {

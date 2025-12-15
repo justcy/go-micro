@@ -7,7 +7,7 @@ layout: default
 To make use of Go Micro 
 
 ```bash
-go get go-micro.dev/v5@latest
+go get go-micro.kanter.cn/v1@latest
 ```
 
 ## Create a service
@@ -18,7 +18,7 @@ This is a basic example of how you'd create a service and register a handler in 
 mkdir helloworld
 cd helloworld
 go mod init
-go get go-micro.dev/v5@latest
+go get go-micro.kanter.cn/v1@latest
 ```
 
 Write the following into `main.go`
@@ -27,7 +27,7 @@ Write the following into `main.go`
 package main
 
 import (
-        "go-micro.dev/v5"
+        "go-micro.kanter.cn/v1"
 )
 
 type Request struct {
@@ -105,12 +105,12 @@ curl -XPOST \
 
 ## Protobuf
 
-If you want to define services with protobuf you can use protoc-gen-micro (go-micro.dev/v5/cmd/protoc-gen-micro).
+If you want to define services with protobuf you can use protoc-gen-micro (go-micro.kanter.cn/v1/cmd/protoc-gen-micro).
 
 Install the generator:
 
 ```bash
-go install go-micro.dev/v5/cmd/protoc-gen-micro@latest
+go install go-micro.kanter.cn/v1/cmd/protoc-gen-micro@latest
 ```
 
 ```bash
@@ -151,7 +151,7 @@ In your `main.go` update the code to reference the generated code
 package main
 
 import (
-        "go-micro.dev/v5"
+        "go-micro.kanter.cn/v1"
 
         pb "github.com/micro/helloworld/proto"
 )
@@ -195,7 +195,7 @@ import (
         "context"
         "fmt"
 
-        "go-micro.dev/v5"
+        "go-micro.kanter.cn/v1"
         pb "github.com/micro/helloworld/proto"
 )
 
@@ -222,7 +222,7 @@ func main() {
 Install the Micro CLI:
 
 ```
-go install go-micro.dev/v5/cmd/micro@latest
+go install go-micro.kanter.cn/v1/cmd/micro@latest
 ```
 
 Call a running service via RPC:

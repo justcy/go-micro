@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	"github.com/urfave/cli/v2"
-	"go-micro.dev/v5"
-	"go-micro.dev/v5/cmd"
-	"go-micro.dev/v5/config"
-	"go-micro.dev/v5/config/source"
+	"go-micro.kanter.cn/v1"
+	"go-micro.kanter.cn/v1/cmd"
+	"go-micro.kanter.cn/v1/config"
+	"go-micro.kanter.cn/v1/config/source"
 )
 
 func TestCliSourceDefault(t *testing.T) {

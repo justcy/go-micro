@@ -38,8 +38,8 @@ package main
 import (
     "context"
     "database/sql"
-    "go-micro.dev/v5"
-    "go-micro.dev/v5/server"
+    "go-micro.kanter.cn/v1"
+    "go-micro.kanter.cn/v1/server"
     _ "github.com/lib/pq"
 )
 
@@ -104,9 +104,9 @@ import (
     "context"
     "database/sql"
     "time"
-    "go-micro.dev/v5"
-    "go-micro.dev/v5/client"
-    "go-micro.dev/v5/server"
+    "go-micro.kanter.cn/v1"
+    "go-micro.kanter.cn/v1/client"
+    "go-micro.kanter.cn/v1/server"
 )
 
 type Order struct {
@@ -200,8 +200,8 @@ import (
     "encoding/json"
     "net/http"
     "strconv"
-    "go-micro.dev/v5"
-    "go-micro.dev/v5/client"
+    "go-micro.kanter.cn/v1"
+    "go-micro.kanter.cn/v1/client"
 )
 
 type Gateway struct {

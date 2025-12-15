@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"go-micro.dev/v5/client"
-	"go-micro.dev/v5/logger"
+	"go-micro.kanter.cn/v1/client"
+	"go-micro.kanter.cn/v1/logger"
 )
 
 // Options contains configuration for the Store.

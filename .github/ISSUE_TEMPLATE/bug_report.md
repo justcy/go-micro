@@ -41,4 +41,4 @@ Add any other context about the problem here.
 ## Resources
 - [Documentation](https://github.com/micro/go-micro/tree/master/internal/website/docs)
 - [Examples](https://github.com/micro/go-micro/tree/master/internal/website/docs/examples)
-- [API Reference](https://pkg.go.dev/go-micro.dev/v5)
+- [API Reference](https://pkg.go.dev/go-micro.kanter.cn/v1)

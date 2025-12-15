@@ -4,8 +4,8 @@ import (
 	"time"
 
 	natsgo "github.com/nats-io/nats.go"
-	"go-micro.dev/v5/config/encoder"
-	"go-micro.dev/v5/config/source"
+	"go-micro.kanter.cn/v1/config/encoder"
+	"go-micro.kanter.cn/v1/config/source"
 )
 
 type watcher struct {

@@ -14,8 +14,8 @@ import (
 
 	"github.com/stretchr/objx"
 	"github.com/urfave/cli/v2"
-	"go-micro.dev/v5/client"
-	"go-micro.dev/v5/registry"
+	"go-micro.kanter.cn/v1/client"
+	"go-micro.kanter.cn/v1/registry"
 )
 
 // LookupService queries the service for a service with the given alias. If

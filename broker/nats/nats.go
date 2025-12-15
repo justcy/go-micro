@@ -8,10 +8,10 @@ import (
 	"sync"
 
 	natsp "github.com/nats-io/nats.go"
-	"go-micro.dev/v5/broker"
-	"go-micro.dev/v5/codec/json"
-	"go-micro.dev/v5/logger"
-	"go-micro.dev/v5/registry"
+	"go-micro.kanter.cn/v1/broker"
+	"go-micro.kanter.cn/v1/codec/json"
+	"go-micro.kanter.cn/v1/logger"
+	"go-micro.kanter.cn/v1/registry"
 )
 
 type natsBroker struct {

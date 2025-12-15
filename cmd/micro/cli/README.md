@@ -13,7 +13,7 @@ write services. Surrounding this we introduce a number of tools to make it easy 
 Install `micro` via `go install`
 
 ```
-go install go-micro.dev/v5@latest
+go install go-micro.kanter.cn/v1@latest
 ```
 
 Or via install script
@@ -146,7 +146,7 @@ import (
         "context"
         "fmt"
 
-        "go-micro.dev/v5"
+        "go-micro.kanter.cn/v1"
 )
 
 type Request struct {

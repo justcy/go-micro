@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"go-micro.dev/v5/broker"
-	"go-micro.dev/v5/client"
-	"go-micro.dev/v5/server"
+	"go-micro.kanter.cn/v1/broker"
+	"go-micro.kanter.cn/v1/client"
+	"go-micro.kanter.cn/v1/server"
 )
 
 type durableQueueKey struct{}

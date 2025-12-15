@@ -4,9 +4,9 @@ import (
 	"os"
 	"testing"
 
-	log "go-micro.dev/v5/logger"
-	"go-micro.dev/v5/registry"
-	"go-micro.dev/v5/registry/nats"
+	log "go-micro.kanter.cn/v1/logger"
+	"go-micro.kanter.cn/v1/registry"
+	"go-micro.kanter.cn/v1/registry/nats"
 )
 
 type environment struct {

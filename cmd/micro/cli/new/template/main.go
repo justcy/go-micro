@@ -7,7 +7,7 @@ import (
 	"{{.Dir}}/handler"
 	pb "{{.Dir}}/proto"
 
-	"go-micro.dev/v5"
+	"go-micro.kanter.cn/v1"
 )
 
 func main() {

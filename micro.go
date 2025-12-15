@@ -4,9 +4,9 @@ package micro
 import (
 	"context"
 
-	"go-micro.dev/v5/client"
-	"go-micro.dev/v5/server"
-	"go-micro.dev/v5/service"
+	"go-micro.kanter.cn/v1/client"
+	"go-micro.kanter.cn/v1/server"
+	"go-micro.kanter.cn/v1/service"
 )
 
 type serviceKey struct{}

@@ -1,9 +1,9 @@
 package config
 
 import (
-	"go-micro.dev/v5/config/loader"
-	"go-micro.dev/v5/config/reader"
-	"go-micro.dev/v5/config/source"
+	"go-micro.kanter.cn/v1/config/loader"
+	"go-micro.kanter.cn/v1/config/reader"
+	"go-micro.kanter.cn/v1/config/source"
 )
 
 // WithLoader sets the loader for manager config.

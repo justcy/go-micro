@@ -1,8 +1,8 @@
 package mock
 
 import (
-	"go-micro.dev/v5/registry"
-	"go-micro.dev/v5/server"
+	"go-micro.kanter.cn/v1/registry"
+	"go-micro.kanter.cn/v1/server"
 )
 
 type MockHandler struct {

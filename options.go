@@ -1,7 +1,7 @@
 package micro
 
 import (
-	"go-micro.dev/v5/service"
+	"go-micro.kanter.cn/v1/service"
 )
 
 var Broker = service.Broker

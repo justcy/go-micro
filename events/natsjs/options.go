@@ -4,7 +4,7 @@ import (
 	"crypto/tls"
 	"time"
 
-	"go-micro.dev/v5/logger"
+	"go-micro.kanter.cn/v1/logger"
 )
 
 // Options which are used to configure the nats stream.

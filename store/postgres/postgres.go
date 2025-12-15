@@ -31,8 +31,8 @@ import (
 
 	"github.com/lib/pq"
 	"github.com/pkg/errors"
-	"go-micro.dev/v5/logger"
-	"go-micro.dev/v5/store"
+	"go-micro.kanter.cn/v1/logger"
+	"go-micro.kanter.cn/v1/store"
 )
 
 // DefaultDatabase is the namespace that the sql store

@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/nats-io/nats.go"
-	"go-micro.dev/v5/codec/json"
-	"go-micro.dev/v5/server"
-	"go-micro.dev/v5/transport"
+	"go-micro.kanter.cn/v1/codec/json"
+	"go-micro.kanter.cn/v1/server"
+	"go-micro.kanter.cn/v1/transport"
 )
 
 type ntport struct {

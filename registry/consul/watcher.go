@@ -5,9 +5,9 @@ import (
 
 	"github.com/hashicorp/consul/api"
 	"github.com/hashicorp/consul/api/watch"
-	"go-micro.dev/v5/registry"
-	mnet "go-micro.dev/v5/util/net"
-	regutil "go-micro.dev/v5/util/registry"
+	"go-micro.kanter.cn/v1/registry"
+	mnet "go-micro.kanter.cn/v1/util/net"
+	regutil "go-micro.kanter.cn/v1/util/registry"
 )
 
 type consulWatcher struct {

@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	amqp "github.com/rabbitmq/amqp091-go"
-	"go-micro.dev/v5/logger"
+	"go-micro.kanter.cn/v1/logger"
 )
 
 func TestNewRabbitMQConnURL(t *testing.T) {

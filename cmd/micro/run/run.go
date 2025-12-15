@@ -15,7 +15,7 @@ import (
 	"time"
 
 	"github.com/urfave/cli/v2"
-	"go-micro.dev/v5/cmd"
+	"go-micro.kanter.cn/v1/cmd"
 )
 
 // Color codes for log output

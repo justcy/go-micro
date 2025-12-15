@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/urfave/cli/v2"
-	"go-micro.dev/v5"
-	"go-micro.dev/v5/logger"
-	"go-micro.dev/v5/registry"
+	"go-micro.kanter.cn/v1"
+	"go-micro.kanter.cn/v1/logger"
+	"go-micro.kanter.cn/v1/registry"
 )
 
 // Options for web.

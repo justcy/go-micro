@@ -7,12 +7,12 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"go-micro.dev/v5/broker"
-	"go-micro.dev/v5/errors"
-	"go-micro.dev/v5/logger"
-	"go-micro.dev/v5/metadata"
-	"go-micro.dev/v5/registry"
-	"go-micro.dev/v5/server"
+	"go-micro.kanter.cn/v1/broker"
+	"go-micro.kanter.cn/v1/errors"
+	"go-micro.kanter.cn/v1/logger"
+	"go-micro.kanter.cn/v1/metadata"
+	"go-micro.kanter.cn/v1/registry"
+	"go-micro.kanter.cn/v1/server"
 )
 
 const (

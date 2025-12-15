@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"io"
 
-	"go-micro.dev/v5/registry"
+	"go-micro.kanter.cn/v1/registry"
 )
 
 func encode(buf []byte) string {

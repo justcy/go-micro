@@ -11,7 +11,7 @@ The Micro server is an optional API and dashboard that provides a fixed entrypoi
 Install the CLI which includes the server command:
 
 ```bash
-go install go-micro.dev/v5/cmd/micro@latest
+go install go-micro.kanter.cn/v1/cmd/micro@latest
 ```
 
 ## Run

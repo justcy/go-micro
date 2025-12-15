@@ -1,9 +1,9 @@
 package server
 
 import (
-	"go-micro.dev/v5/broker"
-	"go-micro.dev/v5/transport"
-	"go-micro.dev/v5/transport/headers"
+	"go-micro.kanter.cn/v1/broker"
+	"go-micro.kanter.cn/v1/transport"
+	"go-micro.kanter.cn/v1/transport/headers"
 )
 
 // event is a broker event we handle on the server transport.

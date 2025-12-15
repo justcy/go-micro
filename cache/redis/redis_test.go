@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"go-micro.dev/v5/cache"
+	"go-micro.kanter.cn/v1/cache"
 )
 
 var (

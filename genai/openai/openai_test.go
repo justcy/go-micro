@@ -1,7 +1,7 @@
 package openai
 
 import (
-	"go-micro.dev/v5/genai"
+	"go-micro.kanter.cn/v1/genai"
 	"os"
 	"testing"
 )

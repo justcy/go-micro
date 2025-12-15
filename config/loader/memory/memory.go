@@ -10,10 +10,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-micro.dev/v5/config/loader"
-	"go-micro.dev/v5/config/reader"
-	"go-micro.dev/v5/config/reader/json"
-	"go-micro.dev/v5/config/source"
+	"go-micro.kanter.cn/v1/config/loader"
+	"go-micro.kanter.cn/v1/config/reader"
+	"go-micro.kanter.cn/v1/config/reader/json"
+	"go-micro.kanter.cn/v1/config/source"
 )
 
 type memory struct {
